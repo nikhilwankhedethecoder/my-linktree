@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+	@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(82, 128, 251);
+}
+section {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.inner-link {
+    background-color: transparent;
+    padding: 20px;
+    transition: 0.1s ease-in;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+.inner-link:hover {
+    background-color: transparent;
+}
+.sub-head {
+    font-size: 13px;
+}
+.links-section {
+    margin-top: 30px;
+}
+.sub-sec {
+    margin: 15px 0px;
+}
+@media screen and (max-width: 720px) {
+    section {
+        width: 100%;
+    }
+}
